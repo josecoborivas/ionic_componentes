@@ -1,1 +1,2 @@
-# ionic_componentes
+# curso_ionic
+Curso Ionic
