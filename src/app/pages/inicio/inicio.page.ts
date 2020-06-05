@@ -24,7 +24,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/avatar'
     },
     {
-      icon: 'checkmark-circle',
+      icon: 'radio-button-on',
       name: 'Buttons and router',
       redirectTo: '/buttons'
     },
@@ -32,6 +32,11 @@ export class InicioPage implements OnInit {
       icon: 'card',
       name: 'Cards',
       redirectTo: '/card'
+    },
+    {
+      icon: 'checkbox',
+      name: 'CheckBox',
+      redirectTo: '/check'
     }
   ]
 
