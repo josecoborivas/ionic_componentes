@@ -52,6 +52,11 @@ export class InicioPage implements OnInit {
       icon: 'grid',
       name: 'Grid - Rows',
       redirectTo: '/grid'
+    },
+    {
+      icon: 'hammer',
+      name: 'Input - Forms',
+      redirectTo: '/input'
     }
   ]
 
