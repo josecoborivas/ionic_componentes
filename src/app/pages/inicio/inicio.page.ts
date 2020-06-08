@@ -54,7 +54,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/grid'
     }
 
-    //comentario
+    //comentario 2222222
   ]
 
   constructor() { }
