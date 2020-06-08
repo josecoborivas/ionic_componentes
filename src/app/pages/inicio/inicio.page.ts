@@ -53,7 +53,6 @@ export class InicioPage implements OnInit {
       name: 'Grid - Rows',
       redirectTo: '/grid'
     }
-    
   ]
 
   constructor() { }
