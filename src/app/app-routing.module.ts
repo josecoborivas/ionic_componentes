@@ -46,7 +46,8 @@ const routes: Routes = [
   {
     path: 'grid',
     loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
-  },  {
+  },
+  {
     path: 'input',
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   },
@@ -62,6 +63,10 @@ const routes: Routes = [
     path: 'loading',
     loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule)
   },
+  {
+    path: 'modal',
+    loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule)
+  }
 
 ];
 
