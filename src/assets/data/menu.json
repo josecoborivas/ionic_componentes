@@ -88,5 +88,10 @@
       "icon": "search",
       "name": "SearchBar",
       "redirectTo": "/searchbar"
+    },
+    {
+      "icon": "copy",
+      "name": "Segment",
+      "redirectTo": "/segment"
     }
   ]
