@@ -1,0 +1,52 @@
+<app-header title="Progress Bar y Range"></app-header>
+
+
+<ion-content padding>
+  <ion-progress-bar [value]="porcentaje"></ion-progress-bar>
+
+  <ion-list>
+    <ion-item>
+      <ion-range
+        min="0"
+        max="100"
+        pin="true"
+        value="0"
+        color="tertiary"
+        (ionChange)="rangeChange($event)">
+      <ion-label slot="start">0</ion-label>
+      <ion-label slot="end">100</ion-label>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+
+      <ion-list>
+        <ion-item>
+          <ion-label class="ion-padding">Indeterminate</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+        </ion-item>
+        <ion-item>
+          <ion-label class="ion-padding">Buffer</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-progress-bar value="0.25" buffer="0.5"></ion-progress-bar>
+        </ion-item>
+        <ion-item>
+          <ion-label>Reverse</ion-label>   
+        </ion-item>
+        <ion-item>
+          <ion-progress-bar type="indeterminate" reversed="true"></ion-progress-bar>
+        </ion-item>
+      </ion-list>
+    
+      
+      
+   
+   
+      
+    
+    
+  
+
+</ion-content>
