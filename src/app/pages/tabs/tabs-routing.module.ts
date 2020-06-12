@@ -22,8 +22,9 @@ const routes: Routes = [
       },
       {
         path: 'settings',
-        loadChildren: '../fab/fab.module#FabPageModule'
+        loadChildren: '../segment/segment.module#SegmentPageModule'
       }
+     
     ]
   }
 ];
